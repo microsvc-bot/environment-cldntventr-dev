@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: CloudNativeEntrepreneur
+    provider: github
+    repository: hub
+  name: cloudnativeentrepreneur-hub
+spec:
+  description: Imported application for CloudNativeEntrepreneur/hub
+  httpCloneURL: https://github.com/CloudNativeEntrepreneur/hub.git
+  org: CloudNativeEntrepreneur
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: hub
+  scheduler:
+    kind: ""
+    name: ""
+  url: git@github.com:CloudNativeEntrepreneur/hub.git

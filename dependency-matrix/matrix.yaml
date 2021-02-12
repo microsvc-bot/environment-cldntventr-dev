@@ -29,3 +29,9 @@ dependencies:
   url: https://github.com/CloudNativeEntrepreneur/person-model.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: CloudNativeEntrepreneur
+  repo: hub
+  url: https://github.com/CloudNativeEntrepreneur/hub.git
+  version: ""
+  versionURL: ""
